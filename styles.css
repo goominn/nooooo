@@ -1,0 +1,13 @@
+body {
+color: white;
+    background: linear-gradient(1deg, black, darkred);
+    margin:0%
+}
+
+header{
+    border-bottom: solid 2px rgb(240 231 11);
+    padding: 20px;
+    font-size: 30px;
+}
+
+
