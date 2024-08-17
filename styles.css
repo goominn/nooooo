@@ -1,13 +1,93 @@
 body {
 color: white;
-    background: linear-gradient(1deg, black, darkred);
-    margin:0%
+background:darkred;
+    margin:0%;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 80px;
 }
 
 header{
-    border-bottom: solid 2px rgb(240 231 11);
-    padding: 20px;
+    border-bottom: solid 2px  rgb(14, 11, 11);
     font-size: 30px;
+    padding: 05px;
+    background: rgb(223, 0, 21);
+    display: flex;
+}
+
+section{
+    
+    background: repeating-linear-gradient(24deg, black, rgb(8 8 8) 100px);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 90;
+    padding-top: 90px;
+}
+
+.textodoladindovd{
+    margin-right: 5%;
+}
+
+p{
+    font-size: 20px
+}
+
+h2{
+    font-size: 16px;
+    padding: 10px;
+}
+
+img{
+    height: 180px;
+}
+
+.videozin{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.brino{
+    display: flex;
+}
+h3{
+    font-size: 16px;
+    padding: 10px;
+}
+.lives{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.v1111{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background: darkred;
+    padding-left:20px ;
+    display: block;
 }
 
 
+.v2222{
+    padding-bottom: 10px;
+    padding-top: 1px;
+    background:darkred;
+    padding-left:20px ;
+    display: block;
+}
+.v1111 img{
+    opacity: 0.7;
+    height: 180px;
+}
+.v1111 img:hover{
+opacity: 1.0;
+border: 1px solid black;
+}
+
+.v2222 img{
+    opacity: 0.7;
+    height: 180px;
+}
+.v2222 img:hover{
+opacity: 1.0;
+border: 1px solid black;
+}
